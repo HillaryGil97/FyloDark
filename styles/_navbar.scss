@@ -1,0 +1,21 @@
+#menu{
+    font-size: 20px;
+    background-color: $blueFondo;
+    div{
+        margin: 20px;
+        display: flex;
+        justify-content: flex-end;
+        ul{
+            li{
+                padding: 10px;
+                a{
+                    color: $whiteNeutral;
+                    &hover{
+                        color: $whiteNeutral;
+                    }
+                }
+               
+            }
+        }
+    }
+}

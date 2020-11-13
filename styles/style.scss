@@ -1,4 +1,6 @@
-*{
-    margin:0;
-    padding:0;
-}
+@import "variables";
+@import "base";
+@import "navbar";
+@import "first";
+@import "grid";
+@import "tarjeta";

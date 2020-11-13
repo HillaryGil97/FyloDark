@@ -1,0 +1,22 @@
+#grid{
+    div{
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: $whiteNeutral;
+        img{
+            width: 90px;
+            height: 60px;
+            align-self: center;
+        }
+        h5{
+            align-self: center;
+        }
+        p{
+            width: 80%;
+            align-self: center;
+        }
+    }
+}
