@@ -11,6 +11,10 @@ body #second {
   background-color: #181f2a;
 }
 
+body #third {
+  background-color: #0b1523;
+}
+
 #menu {
   font-size: 20px;
   background-color: #1c2431;
@@ -165,5 +169,83 @@ body #second {
   width: 30%;
   border-bottom: 1px solid #65e2d9;
   color: #65e2d9;
+}
+
+#profiles {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#profiles #quotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#profiles #quotes .perfil {
+  width: 30%;
+  padding: 20px;
+  background-color: #202a3c;
+  border-radius: 5px;
+}
+
+#profiles #quotes .perfil p {
+  font-size: 90%;
+}
+
+#profiles #quotes .perfil div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#profiles #quotes .perfil div img {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#profiles #quotes .perfil div div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#profiles #quotes .perfil div div h5 {
+  font-size: 90%;
+}
+
+#profiles #quotes .perfil div div h6 {
+  font-size: 70%;
+}
+
+footer {
+  color: white;
+  font-size: 110%;
+}
+
+footer div div {
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div div img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */

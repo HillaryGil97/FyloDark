@@ -1,0 +1,34 @@
+#profiles{
+    color: $whiteNeutral;
+    display: flex;
+    justify-content: center;
+    #quotes{
+        display: flex;
+        justify-content: space-between;
+        .perfil{
+            width: 30%;
+            padding: 20px;
+            background-color: $blueProfiles;
+            border-radius: 5px;
+            p{
+                font-size: 90%;
+            }
+            div{
+                display: flex;
+                img{
+                    margin-top: 20px;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+                div{
+                    flex-direction: column;
+                    margin-top: 20px;
+                    margin-left:10px;
+                    h5{font-size: 90%;}
+                    h6{font-size: 70%;}
+                }
+            }
+        }
+    }
+}
