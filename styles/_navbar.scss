@@ -1,12 +1,20 @@
 #menu{
+    margin: 20px;
     font-size: 20px;
     background-color: $blueFondo;
-    div{
+    display: flex;
+    a{
+        width: 70%;
+        align-self: center;
+    }
+    #navbarNav{
         margin: 20px;
-        display: flex;
-        justify-content: flex-end;
+        //justify-content: flex-end;
         ul{
+            display: flex;
+            justify-content: flex-end;
             li{
+                list-style: none;
                 padding: 10px;
                 a{
                     color: $whiteNeutral;

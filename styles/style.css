@@ -16,12 +16,26 @@ body #third {
 }
 
 #menu {
+  margin: 20px;
   font-size: 20px;
   background-color: #1c2431;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#menu div {
+#menu a {
+  width: 70%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#menu #navbarNav {
   margin: 20px;
+}
+
+#menu #navbarNav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,15 +44,16 @@ body #third {
           justify-content: flex-end;
 }
 
-#menu div ul li {
+#menu #navbarNav ul li {
+  list-style: none;
   padding: 10px;
 }
 
-#menu div ul li a {
+#menu #navbarNav ul li a {
   color: white;
 }
 
-#menu div ul li ahover {
+#menu #navbarNav ul li ahover {
   color: white;
 }
 
@@ -181,40 +196,31 @@ body #third {
           justify-content: center;
 }
 
-#profiles #quotes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#profiles #quotes .perfil {
-  width: 30%;
+#profiles .perfil {
+  margin: 20px;
   padding: 20px;
   background-color: #202a3c;
   border-radius: 5px;
 }
 
-#profiles #quotes .perfil p {
+#profiles .perfil p {
   font-size: 90%;
 }
 
-#profiles #quotes .perfil div {
+#profiles .perfil div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#profiles #quotes .perfil div img {
+#profiles .perfil div img {
   margin-top: 20px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
 
-#profiles #quotes .perfil div div {
+#profiles .perfil div div {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -223,12 +229,69 @@ body #third {
   margin-left: 10px;
 }
 
-#profiles #quotes .perfil div div h5 {
+#profiles .perfil div div h5 {
   font-size: 90%;
 }
 
-#profiles #quotes .perfil div div h6 {
+#profiles .perfil div div h6 {
   font-size: 70%;
+}
+
+#tarjeta2 {
+  color: white;
+  background-color: pink;
+  margin: 30px 30px;
+}
+
+#tarjeta2 div .card {
+  background-color: #1c2431;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#tarjeta2 div .card .card-body {
+  padding: 40px;
+}
+
+#tarjeta2 div .card .card-body h5 {
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+}
+
+#tarjeta2 div .card .card-body p {
+  width: 100%;
+  text-align: center;
+  font-size: 90%;
+}
+
+#tarjeta2 div .card .card-body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#tarjeta2 div .card .card-body div form {
+  width: 60%;
+}
+
+#tarjeta2 div .card .card-body div form input {
+  padding-left: 15px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+#tarjeta2 div .card .card-body div a {
+  width: 30%;
+  background-color: #65e2d9;
+  padding-left: 15px;
+  border-radius: 40px;
+  border-color: #65e2d9;
 }
 
 footer {
@@ -237,15 +300,27 @@ footer {
 }
 
 footer div div {
-  background-color: pink;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+footer div div p {
+  font-size: 80%;
 }
 
 footer div div img {
   width: 20px;
   height: 20px;
   margin-right: 5px;
+}
+
+footer div ul li {
+  list-style: none;
+}
+
+footer #challenge p {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

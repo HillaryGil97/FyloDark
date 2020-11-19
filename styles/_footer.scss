@@ -3,9 +3,26 @@ footer{
     font-size: 110% ;
     div{
         div{
-            background-color: pink;
+            padding: 10px;
             display: flex;
-            img{width: 20px;height: 20px; margin-right: 5px;}
+            p{
+                font-size: 80%;
+            }
+            img{
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+    }
+    #challenge{
+        p{
+            text-align: center;
         }
     }
 }

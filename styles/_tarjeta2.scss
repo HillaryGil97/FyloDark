@@ -1,0 +1,45 @@
+#tarjeta2{
+    color:$whiteNeutral;
+    background-color: pink;
+    margin: 30px 30px;
+    div{
+        .card{
+            background-color: $blueFondo;
+            display: flex;
+            justify-content: space-around;
+            .card-body{
+                padding: 40px;
+                h5{
+                    width: 100%;
+                    text-align: center;
+                    font-size: 200%;
+                }
+                p{
+                    
+                    width: 100%;
+                    text-align: center;
+                    font-size: 90%;
+                }
+                div{
+                    display: flex;
+                    justify-content: space-around;
+                    form{
+                        width: 60%;
+                        input{
+                            padding-left: 15px;
+                            border-radius: 40px;
+                            background-color: $whiteNeutral;
+                        }
+                    }
+                    a{
+                        width: 30%;
+                        background-color: $cyan;
+                        padding-left: 15px;
+                        border-radius: 40px;
+                        border-color: $cyan;
+                    }
+                }
+            }
+        }
+    }
+}
